@@ -1,0 +1,44 @@
+{
+    "countries": [
+      {
+        "name": "United States of America",
+        "code": "USA",
+        "flag": "🇺🇸",
+        "officialName": "United States of America",
+        "location": "North America",
+        "population": "331 million",
+        "language": "English",
+        "religion": "Various"
+      },
+      {
+        "name": "People's Republic of China",
+        "code": "CHN",
+        "flag": "🇨🇳",
+        "officialName": "People's Republic of China",
+        "location": "East Asia",
+        "population": "1.4 billion",
+        "language": "Mandarin Chinese",
+        "religion": "Various, officially atheist"
+      }
+    ],
+    "medalDetails": [
+      {
+        "country": "United States of America",
+        "code": "USA",
+        "gold": 40,
+        "silver": 44,
+        "bronze": 42,
+        "total": 126,
+        "sports": [
+          {
+            "sport": "Athletics",
+            "totalMedals": { "gold": 10, "silver": 5, "bronze": 3, "overall": 18 },
+            "events": [
+              { "event": "Men's 100m", "name": "Noah Lyles", "medal": "Gold" },
+              { "event": "Men's 400m", "name": "Quincy Hall", "medal": "Gold" }
+            ]
+          }
+        ]
+      }
+    ]
+}

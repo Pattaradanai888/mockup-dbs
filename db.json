@@ -1,44 +1,802 @@
 {
-    "countries": [
-      {
-        "name": "United States of America",
-        "code": "USA",
-        "flag": "🇺🇸",
-        "officialName": "United States of America",
-        "location": "North America",
-        "population": "331 million",
-        "language": "English",
-        "religion": "Various"
-      },
-      {
-        "name": "People's Republic of China",
-        "code": "CHN",
-        "flag": "🇨🇳",
-        "officialName": "People's Republic of China",
-        "location": "East Asia",
-        "population": "1.4 billion",
-        "language": "Mandarin Chinese",
-        "religion": "Various, officially atheist"
-      }
-    ],
-    "medalDetails": [
-      {
-        "country": "United States of America",
-        "code": "USA",
+  "countries": [
+    {
+      "name": "United States of America",
+      "code": "USA",
+      "flag": "🇺🇸",
+      "officialName": "United States of America",
+      "location": "North America",
+      "population": "331 million",
+      "language": "English",
+      "religion": "Various",
+      "medals": {
         "gold": 40,
         "silver": 44,
-        "bronze": 42,
-        "total": 126,
-        "sports": [
-          {
-            "sport": "Athletics",
-            "totalMedals": { "gold": 10, "silver": 5, "bronze": 3, "overall": 18 },
-            "events": [
-              { "event": "Men's 100m", "name": "Noah Lyles", "medal": "Gold" },
-              { "event": "Men's 400m", "name": "Quincy Hall", "medal": "Gold" }
-            ]
-          }
-        ]
-      }
-    ]
+        "bronze": 42
+      },
+      "sports": [
+        {
+          "name": "Athletics",
+          "medals": {
+            "gold": 10,
+            "silver": 5,
+            "bronze": 3
+          },
+          "events": [
+            {
+              "name": "Men's 100m",
+              "athlete": "Noah Lyles",
+              "medal": "Gold"
+            },
+            {
+              "name": "Men's 400m",
+              "athlete": "Quincy Hall",
+              "medal": "Gold"
+            }
+          ]
+        },
+        {
+          "name": "Swimming",
+          "medals": {
+            "gold": 12,
+            "silver": 9,
+            "bronze": 8
+          },
+          "events": [
+            {
+              "name": "Men's 100m Freestyle",
+              "athlete": "Caeleb Dressel",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's 200m Butterfly",
+              "athlete": "Katie Ledecky",
+              "medal": "Gold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "People's Republic of China",
+      "code": "CHN",
+      "flag": "🇨🇳",
+      "officialName": "People's Republic of China",
+      "location": "East Asia",
+      "population": "1.4 billion",
+      "language": "Mandarin Chinese",
+      "religion": "Various, officially atheist",
+      "medals": {
+        "gold": 38,
+        "silver": 32,
+        "bronze": 22
+      },
+      "sports": [
+        {
+          "name": "Diving",
+          "medals": {
+            "gold": 10,
+            "silver": 4,
+            "bronze": 1
+          },
+          "events": [
+            {
+              "name": "Men's 10m Platform",
+              "athlete": "Chen Aisen",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's 3m Springboard",
+              "athlete": "Shi Tingmao",
+              "medal": "Gold"
+            }
+          ]
+        },
+        {
+          "name": "Table Tennis",
+          "medals": {
+            "gold": 8,
+            "silver": 6,
+            "bronze": 5
+          },
+          "events": [
+            {
+              "name": "Men's Singles",
+              "athlete": "Ma Long",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's Doubles",
+              "athlete": "Ding Ning and Liu Shiwen",
+              "medal": "Gold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Japan",
+      "code": "JPN",
+      "flag": "🇯🇵",
+      "officialName": "Japan",
+      "location": "East Asia",
+      "population": "126 million",
+      "language": "Japanese",
+      "religion": "Shinto, Buddhism",
+      "medals": {
+        "gold": 27,
+        "silver": 14,
+        "bronze": 17
+      },
+      "sports": [
+        {
+          "name": "Judo",
+          "medals": {
+            "gold": 7,
+            "silver": 5,
+            "bronze": 3
+          },
+          "events": [
+            {
+              "name": "Men's 73kg",
+              "athlete": "Shohei Ono",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's 52kg",
+              "athlete": "Tina Trstenjak",
+              "medal": "Gold"
+            }
+          ]
+        },
+        {
+          "name": "Wrestling",
+          "medals": {
+            "gold": 5,
+            "silver": 3,
+            "bronze": 7
+          },
+          "events": [
+            {
+              "name": "Men's 65kg Freestyle",
+              "athlete": "Ryoichi Yamanaka",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's 53kg Freestyle",
+              "athlete": "Yui Susaki",
+              "medal": "Gold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Germany",
+      "code": "GER",
+      "flag": "🇩🇪",
+      "officialName": "Federal Republic of Germany",
+      "location": "Central Europe",
+      "population": "83 million",
+      "language": "German",
+      "religion": "Christianity",
+      "medals": {
+        "gold": 35,
+        "silver": 33,
+        "bronze": 29
+      },
+      "sports": [
+        {
+          "name": "Cycling",
+          "medals": {
+            "gold": 9,
+            "silver": 6,
+            "bronze": 5
+          },
+          "events": [
+            {
+              "name": "Men's Road Race",
+              "athlete": "Julian Alaphilippe",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's Individual Pursuit",
+              "athlete": "Lisa Brennauer",
+              "medal": "Gold"
+            }
+          ]
+        },
+        {
+          "name": "Sailing",
+          "medals": {
+            "gold": 6,
+            "silver": 8,
+            "bronze": 7
+          },
+          "events": [
+            {
+              "name": "Men's Laser",
+              "athlete": "Philipp Buhl",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's 470",
+              "athlete": "Anja Dittmer and Katharina Langer",
+              "medal": "Gold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Australia",
+      "code": "AUS",
+      "flag": "🇦🇺",
+      "officialName": "Commonwealth of Australia",
+      "location": "Oceania",
+      "population": "25 million",
+      "language": "English",
+      "religion": "Christianity",
+      "medals": {
+        "gold": 17,
+        "silver": 7,
+        "bronze": 22
+      },
+      "sports": [
+        {
+          "name": "Swimming",
+          "medals": {
+            "gold": 8,
+            "silver": 3,
+            "bronze": 5
+          },
+          "events": [
+            {
+              "name": "Men's 200m Freestyle",
+              "athlete": "Kyle Chalmers",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's 400m Individual Medley",
+              "athlete": "Ariarne Titmus",
+              "medal": "Gold"
+            }
+          ]
+        },
+        {
+          "name": "Rowing",
+          "medals": {
+            "gold": 4,
+            "silver": 2,
+            "bronze": 10
+          },
+          "events": [
+            {
+              "name": "Men's Four",
+              "athlete": "Alexander Hill",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's Double Sculls",
+              "athlete": "Jessica Morrison and Annabelle McIntyre",
+              "medal": "Gold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "France",
+      "code": "FRA",
+      "flag": "🇫🇷",
+      "officialName": "French Republic",
+      "location": "Western Europe",
+      "population": "67 million",
+      "language": "French",
+      "religion": "Christianity",
+      "medals": {
+        "gold": 25,
+        "silver": 17,
+        "bronze": 20
+      },
+      "sports": [
+        {
+          "name": "Fencing",
+          "medals": {
+            "gold": 10,
+            "silver": 5,
+            "bronze": 8
+          },
+          "events": [
+            {
+              "name": "Men's Foil",
+              "athlete": "Enzo Lefort",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's Sabre",
+              "athlete": "Manon Brunet",
+              "medal": "Gold"
+            }
+          ]
+        },
+        {
+          "name": "Basketball",
+          "medals": {
+            "gold": 4,
+            "silver": 3,
+            "bronze": 4
+          },
+          "events": [
+            {
+              "name": "Men's Basketball",
+              "athlete": "Evan Fournier",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's Basketball",
+              "athlete": "Sandrine Gruda",
+              "medal": "Gold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brazil",
+      "code": "BRA",
+      "flag": "🇧🇷",
+      "officialName": "Federative Republic of Brazil",
+      "location": "South America",
+      "population": "213 million",
+      "language": "Portuguese",
+      "religion": "Christianity",
+      "medals": {
+        "gold": 21,
+        "silver": 17,
+        "bronze": 23
+      },
+      "sports": [
+        {
+          "name": "Volleyball",
+          "medals": {
+            "gold": 8,
+            "silver": 5,
+            "bronze": 6
+          },
+          "events": [
+            {
+              "name": "Men's Volleyball",
+              "athlete": "Ricardo Lucarelli",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's Volleyball",
+              "athlete": "Fernanda Garay",
+              "medal": "Gold"
+            }
+          ]
+        },
+        {
+          "name": "Football",
+          "medals": {
+            "gold": 6,
+            "silver": 3,
+            "bronze": 5
+          },
+          "events": [
+            {
+              "name": "Men's Football",
+              "athlete": "Neymar",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's Football",
+              "athlete": "Marta",
+              "medal": "Silver"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Canada",
+      "code": "CAN",
+      "flag": "🇨🇦",
+      "officialName": "Canada",
+      "location": "North America",
+      "population": "38 million",
+      "language": "English, French",
+      "religion": "Christianity",
+      "medals": {
+        "gold": 15,
+        "silver": 10,
+        "bronze": 15
+      },
+      "sports": [
+        {
+          "name": "Ice Hockey",
+          "medals": {
+            "gold": 7,
+            "silver": 3,
+            "bronze": 5
+          },
+          "events": [
+            {
+              "name": "Men's Ice Hockey",
+              "athlete": "Connor McDavid",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's Ice Hockey",
+              "athlete": "Marie-Philip Poulin",
+              "medal": "Gold"
+            }
+          ]
+        },
+        {
+          "name": "Skiing",
+          "medals": {
+            "gold": 4,
+            "silver": 6,
+            "bronze": 8
+          },
+          "events": [
+            {
+              "name": "Men's Downhill",
+              "athlete": "Alex Harvey",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's Slalom",
+              "athlete": "Mikaela Shiffrin",
+              "medal": "Gold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Italy",
+      "code": "ITA",
+      "flag": "🇮🇹",
+      "officialName": "Italian Republic",
+      "location": "Southern Europe",
+      "population": "60 million",
+      "language": "Italian",
+      "religion": "Christianity",
+      "medals": {
+        "gold": 29,
+        "silver": 22,
+        "bronze": 18
+      },
+      "sports": [
+        {
+          "name": "Football",
+          "medals": {
+            "gold": 5,
+            "silver": 6,
+            "bronze": 3
+          },
+          "events": [
+            {
+              "name": "Men's Football",
+              "athlete": "Paolo Rossi",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's Football",
+              "athlete": "Sara Gama",
+              "medal": "Silver"
+            }
+          ]
+        },
+        {
+          "name": "Cycling",
+          "medals": {
+            "gold": 8,
+            "silver": 4,
+            "bronze": 5
+          },
+          "events": [
+            {
+              "name": "Men's Road Race",
+              "athlete": "Vincenzo Nibali",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's Individual Pursuit",
+              "athlete": "Elisa Longo Borghini",
+              "medal": "Gold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "South Africa",
+      "code": "RSA",
+      "flag": "🇿🇦",
+      "officialName": "Republic of South Africa",
+      "location": "Southern Africa",
+      "population": "60 million",
+      "language": "Afrikaans, English",
+      "religion": "Christianity",
+      "medals": {
+        "gold": 10,
+        "silver": 7,
+        "bronze": 11
+      },
+      "sports": [
+        {
+          "name": "Athletics",
+          "medals": {
+            "gold": 5,
+            "silver": 3,
+            "bronze": 4
+          },
+          "events": [
+            {
+              "name": "Men's 800m",
+              "athlete": "Caster Semenya",
+              "medal": "Gold"
+            },
+            {
+              "name": "Men's 400m",
+              "athlete": "Wayde van Niekerk",
+              "medal": "Gold"
+            }
+          ]
+        },
+        {
+          "name": "Swimming",
+          "medals": {
+            "gold": 2,
+            "silver": 4,
+            "bronze": 3
+          },
+          "events": [
+            {
+              "name": "Men's 100m Freestyle",
+              "athlete": "Chad le Clos",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's 200m Butterfly",
+              "athlete": "Tyrone Smith",
+              "medal": "Silver"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "India",
+      "code": "IND",
+      "flag": "🇮🇳",
+      "officialName": "Republic of India",
+      "location": "South Asia",
+      "population": "1.3 billion",
+      "language": "Hindi, English",
+      "religion": "Hinduism",
+      "medals": {
+        "gold": 12,
+        "silver": 8,
+        "bronze": 15
+      },
+      "sports": [
+        {
+          "name": "Wrestling",
+          "medals": {
+            "gold": 4,
+            "silver": 3,
+            "bronze": 5
+          },
+          "events": [
+            {
+              "name": "Men's 65kg Freestyle",
+              "athlete": "Sushil Kumar",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's 53kg Freestyle",
+              "athlete": "Vinesh Phogat",
+              "medal": "Gold"
+            }
+          ]
+        },
+        {
+          "name": "Badminton",
+          "medals": {
+            "gold": 3,
+            "silver": 2,
+            "bronze": 4
+          },
+          "events": [
+            {
+              "name": "Men's Singles",
+              "athlete": "P.V. Sindhu",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's Doubles",
+              "athlete": "Jwala Gutta and Ashwini Ponnappa",
+              "medal": "Silver"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "South Korea",
+      "code": "KOR",
+      "flag": "🇰🇷",
+      "officialName": "Republic of Korea",
+      "location": "East Asia",
+      "population": "52 million",
+      "language": "Korean",
+      "religion": "Christianity, Buddhism",
+      "medals": {
+        "gold": 13,
+        "silver": 15,
+        "bronze": 12
+      },
+      "sports": [
+        {
+          "name": "Taekwondo",
+          "medals": {
+            "gold": 5,
+            "silver": 4,
+            "bronze": 2
+          },
+          "events": [
+            {
+              "name": "Men's 68kg",
+              "athlete": "Rohullah Nikpai",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's 49kg",
+              "athlete": "Lee Dae-hoon",
+              "medal": "Gold"
+            }
+          ]
+        },
+        {
+          "name": "Short Track Speed Skating",
+          "medals": {
+            "gold": 8,
+            "silver": 11,
+            "bronze": 10
+          },
+          "events": [
+            {
+              "name": "Men's 1000m",
+              "athlete": "Lim Hyo-jun",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's 3000m Relay",
+              "athlete": "Choi Min-jeong",
+              "medal": "Gold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spain",
+      "code": "ESP",
+      "flag": "🇪🇸",
+      "officialName": "Kingdom of Spain",
+      "location": "Southern Europe",
+      "population": "47 million",
+      "language": "Spanish",
+      "religion": "Christianity",
+      "medals": {
+        "gold": 14,
+        "silver": 16,
+        "bronze": 20
+      },
+      "sports": [
+        {
+          "name": "Tennis",
+          "medals": {
+            "gold": 5,
+            "silver": 4,
+            "bronze": 2
+          },
+          "events": [
+            {
+              "name": "Men's Singles",
+              "athlete": "Rafael Nadal",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's Doubles",
+              "athlete": "Garbiñe Muguruza",
+              "medal": "Gold"
+            }
+          ]
+        },
+        {
+          "name": "Water Polo",
+          "medals": {
+            "gold": 6,
+            "silver": 5,
+            "bronze": 6
+          },
+          "events": [
+            {
+              "name": "Men's Water Polo",
+              "athlete": "Germán Yanke",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's Water Polo",
+              "athlete": "Laura Ester",
+              "medal": "Gold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Netherlands",
+      "code": "NED",
+      "flag": "🇳🇱",
+      "officialName": "Kingdom of the Netherlands",
+      "location": "Western Europe",
+      "population": "17 million",
+      "language": "Dutch",
+      "religion": "Christianity",
+      "medals": {
+        "gold": 22,
+        "silver": 14,
+        "bronze": 17
+      },
+      "sports": [
+        {
+          "name": "Speed Skating",
+          "medals": {
+            "gold": 11,
+            "silver": 5,
+            "bronze": 7
+          },
+          "events": [
+            {
+              "name": "Men's 1500m",
+              "athlete": "Sven Kramer",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's 3000m",
+              "athlete": "Irene Schouten",
+              "medal": "Gold"
+            }
+          ]
+        },
+        {
+          "name": "Field Hockey",
+          "medals": {
+            "gold": 6,
+            "silver": 7,
+            "bronze": 5
+          },
+          "events": [
+            {
+              "name": "Men's Field Hockey",
+              "athlete": "Robert van der Horst",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's Field Hockey",
+              "athlete": "Kim Lammers",
+              "medal": "Gold"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

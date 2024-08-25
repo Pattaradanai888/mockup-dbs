@@ -2,13 +2,9 @@
   "countries": [
     {
       "name": "United States of America",
-      "code": "USA",
-      "flag": "🇺🇸",
-      "officialName": "United States of America",
       "location": "North America",
-      "population": "331 million",
       "language": "English",
-      "religion": "Various",
+      "countryCode": "US",
       "medals": {
         "gold": 40,
         "silver": 44,
@@ -39,13 +35,9 @@
     },
     {
       "name": "People's Republic of China",
-      "code": "CHN",
-      "flag": "🇨🇳",
-      "officialName": "People's Republic of China",
       "location": "East Asia",
-      "population": "1.4 billion",
       "language": "Mandarin Chinese",
-      "religion": "Various, officially atheist",
+      "countryCode": "CN",
       "medals": {
         "gold": 38,
         "silver": 32,
@@ -76,13 +68,9 @@
     },
     {
       "name": "Japan",
-      "code": "JPN",
-      "flag": "🇯🇵",
-      "officialName": "Japan",
       "location": "East Asia",
-      "population": "126 million",
       "language": "Japanese",
-      "religion": "Shinto, Buddhism",
+      "countryCode": "JP",
       "medals": {
         "gold": 27,
         "silver": 14,
@@ -113,13 +101,9 @@
     },
     {
       "name": "Germany",
-      "code": "GER",
-      "flag": "🇩🇪",
-      "officialName": "Federal Republic of Germany",
       "location": "Central Europe",
-      "population": "83 million",
       "language": "German",
-      "religion": "Christianity",
+      "countryCode": "DE",
       "medals": {
         "gold": 35,
         "silver": 33,
@@ -150,13 +134,9 @@
     },
     {
       "name": "Australia",
-      "code": "AUS",
-      "flag": "🇦🇺",
-      "officialName": "Commonwealth of Australia",
       "location": "Oceania",
-      "population": "25 million",
       "language": "English",
-      "religion": "Christianity",
+      "countryCode": "AU",
       "medals": {
         "gold": 17,
         "silver": 7,
@@ -187,13 +167,9 @@
     },
     {
       "name": "France",
-      "code": "FRA",
-      "flag": "🇫🇷",
-      "officialName": "French Republic",
       "location": "Western Europe",
-      "population": "67 million",
       "language": "French",
-      "religion": "Christianity",
+      "countryCode": "FR",
       "medals": {
         "gold": 25,
         "silver": 17,
@@ -224,13 +200,9 @@
     },
     {
       "name": "Brazil",
-      "code": "BRA",
-      "flag": "🇧🇷",
-      "officialName": "Federative Republic of Brazil",
       "location": "South America",
-      "population": "213 million",
       "language": "Portuguese",
-      "religion": "Christianity",
+      "countryCode": "BR",
       "medals": {
         "gold": 21,
         "silver": 17,
@@ -261,13 +233,9 @@
     },
     {
       "name": "Canada",
-      "code": "CAN",
-      "flag": "🇨🇦",
-      "officialName": "Canada",
       "location": "North America",
-      "population": "38 million",
       "language": "English, French",
-      "religion": "Christianity",
+      "countryCode": "CA",
       "medals": {
         "gold": 15,
         "silver": 10,
@@ -298,13 +266,9 @@
     },
     {
       "name": "Italy",
-      "code": "ITA",
-      "flag": "🇮🇹",
-      "officialName": "Italian Republic",
       "location": "Southern Europe",
-      "population": "60 million",
       "language": "Italian",
-      "religion": "Christianity",
+      "countryCode": "IT",
       "medals": {
         "gold": 29,
         "silver": 22,

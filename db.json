@@ -31,7 +31,8 @@
             }
           ]
         }
-      ]
+      ],
+      "order": 1
     },
     {
       "name": "People's Republic of China",
@@ -64,7 +65,8 @@
             }
           ]
         }
-      ]
+      ],
+      "order": 2
     },
     {
       "name": "Japan",
@@ -97,7 +99,8 @@
             }
           ]
         }
-      ]
+      ],
+      "order": 3
     },
     {
       "name": "Germany",
@@ -130,7 +133,8 @@
             }
           ]
         }
-      ]
+      ],
+      "order": 4
     },
     {
       "name": "Australia",
@@ -163,7 +167,8 @@
             }
           ]
         }
-      ]
+      ],
+      "order": 5
     },
     {
       "name": "France",
@@ -196,7 +201,8 @@
             }
           ]
         }
-      ]
+      ],
+      "order": 6
     },
     {
       "name": "Brazil",
@@ -229,7 +235,8 @@
             }
           ]
         }
-      ]
+      ],
+      "order": 7
     },
     {
       "name": "Canada",
@@ -262,7 +269,8 @@
             }
           ]
         }
-      ]
+      ],
+      "order": 8
     },
     {
       "name": "Italy",
@@ -295,7 +303,8 @@
             }
           ]
         }
-      ]
+      ],
+      "order": 9
     }
   ]
 }

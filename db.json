@@ -2,6 +2,7 @@
   "countries": [
     {
       "name": "United States of America",
+      "shortName": "USA",
       "location": "North America",
       "language": "English",
       "countryCode": "US",
@@ -36,6 +37,7 @@
     },
     {
       "name": "People's Republic of China",
+      "shortName": "CHN",
       "location": "East Asia",
       "language": "Mandarin Chinese",
       "countryCode": "CN",
@@ -70,6 +72,7 @@
     },
     {
       "name": "Japan",
+      "shortName": "JPN",
       "location": "East Asia",
       "language": "Japanese",
       "countryCode": "JP",
@@ -104,6 +107,7 @@
     },
     {
       "name": "Germany",
+      "shortName": "GER",
       "location": "Central Europe",
       "language": "German",
       "countryCode": "DE",
@@ -138,6 +142,7 @@
     },
     {
       "name": "Australia",
+      "shortName": "AUS",
       "location": "Oceania",
       "language": "English",
       "countryCode": "AU",
@@ -172,6 +177,7 @@
     },
     {
       "name": "France",
+      "shortName": "FRA",
       "location": "Western Europe",
       "language": "French",
       "countryCode": "FR",
@@ -206,6 +212,7 @@
     },
     {
       "name": "Brazil",
+      "shortName": "BRA",
       "location": "South America",
       "language": "Portuguese",
       "countryCode": "BR",
@@ -240,6 +247,7 @@
     },
     {
       "name": "Canada",
+      "shortName": "CAN",
       "location": "North America",
       "language": "English, French",
       "countryCode": "CA",
@@ -274,6 +282,7 @@
     },
     {
       "name": "Italy",
+      "shortName": "ITA",
       "location": "Southern Europe",
       "language": "Italian",
       "countryCode": "IT",

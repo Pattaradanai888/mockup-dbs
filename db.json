@@ -30,6 +30,36 @@
               "name": "Women's 200m Butterfly",
               "athlete": "Katie Ledecky",
               "medal": "Gold"
+            },
+            {
+              "name": "Men's 50m Freestyle",
+              "athlete": "Caeleb Dressel",
+              "medal": "Silver"
+            },
+            {
+              "name": "Women's 800m Freestyle",
+              "athlete": "Katie Ledecky",
+              "medal": "Bronze"
+            }
+          ]
+        },
+        {
+          "name": "Athletics",
+          "medals": {
+            "gold": 10,
+            "silver": 5,
+            "bronze": 3
+          },
+          "events": [
+            {
+              "name": "Men's 100m",
+              "athlete": "Noah Lyles",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's 200m",
+              "athlete": "Sha'Carri Richardson",
+              "medal": "Silver"
             }
           ]
         }

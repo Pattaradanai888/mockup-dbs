@@ -65,78 +65,9 @@
         }
       ]
     },
+
     {
       "id": 2,
-      "name": "People's Republic of China",
-      "shortName": "CHN",
-      "location": "East Asia",
-      "language": "Mandarin Chinese",
-      "countryCode": "CN",
-      "medals": {
-        "gold": 38,
-        "silver": 32,
-        "bronze": 22
-      },
-      "sports": [
-        {
-          "name": "Diving",
-          "medals": {
-            "gold": 10,
-            "silver": 4,
-            "bronze": 1
-          },
-          "events": [
-            {
-              "name": "Men's 10m Platform",
-              "athlete": "Chen Aisen",
-              "medal": "Gold"
-            },
-            {
-              "name": "Women's 3m Springboard",
-              "athlete": "Shi Tingmao",
-              "medal": "Gold"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Japan",
-      "shortName": "JPN",
-      "location": "East Asia",
-      "language": "Japanese",
-      "countryCode": "JP",
-      "medals": {
-        "gold": 27,
-        "silver": 14,
-        "bronze": 17
-      },
-      "sports": [
-        {
-          "name": "Judo",
-          "medals": {
-            "gold": 7,
-            "silver": 5,
-            "bronze": 3
-          },
-          "events": [
-            {
-              "name": "Men's 73kg",
-              "athlete": "Shohei Ono",
-              "medal": "Gold"
-            },
-            {
-              "name": "Women's 52kg",
-              "athlete": "Tina Trstenjak",
-              "medal": "Gold"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 4,
       "name": "Germany",
       "shortName": "GER",
       "location": "Central Europe",
@@ -171,34 +102,34 @@
       ]
     },
     {
-      "id": 5,
-      "name": "Australia",
-      "shortName": "AUS",
-      "location": "Oceania",
-      "language": "English",
-      "countryCode": "AU",
+      "id": 3,
+      "name": "People's Republic of China",
+      "shortName": "CHN",
+      "location": "East Asia",
+      "language": "Mandarin Chinese",
+      "countryCode": "CN",
       "medals": {
-        "gold": 17,
-        "silver": 7,
+        "gold": 38,
+        "silver": 32,
         "bronze": 22
       },
       "sports": [
         {
-          "name": "Swimming",
+          "name": "Diving",
           "medals": {
-            "gold": 8,
-            "silver": 3,
-            "bronze": 5
+            "gold": 10,
+            "silver": 4,
+            "bronze": 1
           },
           "events": [
             {
-              "name": "Men's 200m Freestyle",
-              "athlete": "Kyle Chalmers",
+              "name": "Men's 10m Platform",
+              "athlete": "Chen Aisen",
               "medal": "Gold"
             },
             {
-              "name": "Women's 400m Individual Medley",
-              "athlete": "Ariarne Titmus",
+              "name": "Women's 3m Springboard",
+              "athlete": "Shi Tingmao",
               "medal": "Gold"
             }
           ]
@@ -206,7 +137,42 @@
       ]
     },
     {
-      "id": 6,
+      "id": 4,
+      "name": "Italy",
+      "shortName": "ITA",
+      "location": "Southern Europe",
+      "language": "Italian",
+      "countryCode": "IT",
+      "medals": {
+        "gold": 29,
+        "silver": 22,
+        "bronze": 18
+      },
+      "sports": [
+        {
+          "name": "Cycling",
+          "medals": {
+            "gold": 8,
+            "silver": 4,
+            "bronze": 5
+          },
+          "events": [
+            {
+              "name": "Men's Road Race",
+              "athlete": "Vincenzo Nibali",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's Individual Pursuit",
+              "athlete": "Elisa Longo Borghini",
+              "medal": "Gold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
       "name": "France",
       "shortName": "FRA",
       "location": "Western Europe",
@@ -241,7 +207,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "Brazil",
       "shortName": "BRA",
       "location": "South America",
@@ -276,7 +242,77 @@
       ]
     },
     {
+      "id": 7,
+      "name": "Japan",
+      "shortName": "JPN",
+      "location": "East Asia",
+      "language": "Japanese",
+      "countryCode": "JP",
+      "medals": {
+        "gold": 27,
+        "silver": 14,
+        "bronze": 17
+      },
+      "sports": [
+        {
+          "name": "Judo",
+          "medals": {
+            "gold": 7,
+            "silver": 5,
+            "bronze": 3
+          },
+          "events": [
+            {
+              "name": "Men's 73kg",
+              "athlete": "Shohei Ono",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's 52kg",
+              "athlete": "Tina Trstenjak",
+              "medal": "Gold"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 8,
+      "name": "Australia",
+      "shortName": "AUS",
+      "location": "Oceania",
+      "language": "English",
+      "countryCode": "AU",
+      "medals": {
+        "gold": 17,
+        "silver": 7,
+        "bronze": 22
+      },
+      "sports": [
+        {
+          "name": "Swimming",
+          "medals": {
+            "gold": 8,
+            "silver": 3,
+            "bronze": 5
+          },
+          "events": [
+            {
+              "name": "Men's 200m Freestyle",
+              "athlete": "Kyle Chalmers",
+              "medal": "Gold"
+            },
+            {
+              "name": "Women's 400m Individual Medley",
+              "athlete": "Ariarne Titmus",
+              "medal": "Gold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
       "name": "Canada",
       "shortName": "CAN",
       "location": "North America",
@@ -304,41 +340,6 @@
             {
               "name": "Women's Ice Hockey",
               "athlete": "Marie-Philip Poulin",
-              "medal": "Gold"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "name": "Italy",
-      "shortName": "ITA",
-      "location": "Southern Europe",
-      "language": "Italian",
-      "countryCode": "IT",
-      "medals": {
-        "gold": 29,
-        "silver": 22,
-        "bronze": 18
-      },
-      "sports": [
-        {
-          "name": "Cycling",
-          "medals": {
-            "gold": 8,
-            "silver": 4,
-            "bronze": 5
-          },
-          "events": [
-            {
-              "name": "Men's Road Race",
-              "athlete": "Vincenzo Nibali",
-              "medal": "Gold"
-            },
-            {
-              "name": "Women's Individual Pursuit",
-              "athlete": "Elisa Longo Borghini",
               "medal": "Gold"
             }
           ]

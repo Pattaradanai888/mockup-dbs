@@ -1,7 +1,7 @@
 {
   "countries": [
     {
-      "order": 1,
+      "id": 1,
       "name": "United States of America",
       "shortName": "USA",
       "location": "North America",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "order": 2,
+      "id": 2,
       "name": "People's Republic of China",
       "shortName": "CHN",
       "location": "East Asia",
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "order": 3,
+      "id": 3,
       "name": "Japan",
       "shortName": "JPN",
       "location": "East Asia",
@@ -106,7 +106,7 @@
       ]
     },
     {
-      "order": 4,
+      "id": 4,
       "name": "Germany",
       "shortName": "GER",
       "location": "Central Europe",
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "order": 5,
+      "id": 5,
       "name": "Australia",
       "shortName": "AUS",
       "location": "Oceania",
@@ -176,7 +176,7 @@
       ]
     },
     {
-      "order": 6,
+      "id": 6,
       "name": "France",
       "shortName": "FRA",
       "location": "Western Europe",
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "order": 7,
+      "id": 7,
       "name": "Brazil",
       "shortName": "BRA",
       "location": "South America",
@@ -246,7 +246,7 @@
       ]
     },
     {
-      "order": 8,
+      "id": 8,
       "name": "Canada",
       "shortName": "CAN",
       "location": "North America",
@@ -281,7 +281,7 @@
       ]
     },
     {
-      "order": 9,
+      "id": 9,
       "name": "Italy",
       "shortName": "ITA",
       "location": "Southern Europe",
